@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9D1EBFC5-FBAC-4B68-8B13-05D995C01BC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceCalculator.Tests.Unit", "PriceCalculator.Tests.Unit\PriceCalculator.Tests.Unit.csproj", "{A7B5CBD1-15C5-42FA-9EA1-41A4575C2E18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceCalculator", "PriceCalculator\PriceCalculator.csproj", "{CA068957-5D56-45CF-98F6-8A25FED66049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceCalculator.Tests.Acceptance", "PriceCalculator.Tests.Acceptance\PriceCalculator.Tests.Acceptance.csproj", "{DD7164FD-8A4E-4713-86DD-FFF541F54EDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94403423-79D0-41CF-8010-BBC1A1175DEB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7B5CBD1-15C5-42FA-9EA1-41A4575C2E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B5CBD1-15C5-42FA-9EA1-41A4575C2E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B5CBD1-15C5-42FA-9EA1-41A4575C2E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B5CBD1-15C5-42FA-9EA1-41A4575C2E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA068957-5D56-45CF-98F6-8A25FED66049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA068957-5D56-45CF-98F6-8A25FED66049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA068957-5D56-45CF-98F6-8A25FED66049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA068957-5D56-45CF-98F6-8A25FED66049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7164FD-8A4E-4713-86DD-FFF541F54EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7164FD-8A4E-4713-86DD-FFF541F54EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7164FD-8A4E-4713-86DD-FFF541F54EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7164FD-8A4E-4713-86DD-FFF541F54EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7B5CBD1-15C5-42FA-9EA1-41A4575C2E18} = {9D1EBFC5-FBAC-4B68-8B13-05D995C01BC1}
+		{DD7164FD-8A4E-4713-86DD-FFF541F54EDF} = {9D1EBFC5-FBAC-4B68-8B13-05D995C01BC1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F014D89D-4141-4DE2-830E-06B3F65981D8}
+	EndGlobalSection
+EndGlobal
